@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <title>Document Edit | Dog Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="resources/document-edit.css">
+</head>
+
+<body class="bg-light">
+    <nav class="bg-white px-5 d-flex align-items-center w-100 shadow mb-4">
+        <div class="bg-success p-2">
+            <img src="img/header-logo.svg" alt="Working Dog">
+        </div>
+        <div class="d-flex ml-4 gap-1">
+            <nav class="nav">
+                <a class="nav-link text-secondary" href="#">Home</a>
+                <a class="nav-link text-secondary" href="#">Dogs</a>
+                <a class="nav-link text-secondary" href="#">News</a>
+                <a class="nav-link text-secondary" href="#">Information</a>
+            </nav>
+        </div>
+        <div class="d-flex ml-auto">
+            <nav class="nav align-items-center">
+                <a class="nav-link text-success" href="#"><i class="fas fa-bell"></i></a>
+                <a class="nav-link text-success" href="#"><i class="fas fa-envelope"></i></a>
+                <a class="nav-link text-success" href="#"><i class="fas fa-sliders-h"></i></a>
+                <a class="nav-link text-success" href="#"><img height="50" class="rounded-circle" src="img/profile.jpg" alt=""></a>
+            </nav>
+        </div>
+    </nav>
+
+    <content>
+        <div class="bg-success rounded green-corner-card">
+
+        </div>
+        <div class="mx-5 shadow-sm p-3 bg-white rounded">
+            <div class="d-flex mx-3 my-2 border-bottom">
+                <p class="text-dark font-weight-bold">Document Edit</p>
+                <p class="ml-4 text-secondary font-weight-bold">15</p>
+            </div>
+            <div class="d-flex align-items-center mx-3 my-2 py-2 mb-4">
+                <div class="d-flex">
+                    <div class="rounded-card"></div>
+                    <div class="text-success bell-positioning"><i class="fas fa-bell"></i></div>
+                </div>
+                <div class="ml-4">
+                    You can only upload some documents, Allowed are 5 More Documents
+                </div>
+            </div>
+            <div class="mx-3 my-2 py-2">
+                <div class=" upload-area-border py-4 d-flex flex-column align-items-center justify-content-center">
+                    <div class="text-success font-size-30px"><i class="fas fa-cloud-upload "></i></div>
+                    <div>Drag & Drop Files</div>
+                    <div>or</div>
+                    <div><button class="btn btn-success ">Upload from Computer</button></div>
+                </div>
+                <div class="d-flex mt-4">
+                    <div class="font-weight-light">Format: </div>
+                    <div class="ml-2 font-weight-bold">pdf, doc, docx, xls, xlsx, ppt, pptx, png, jpg, gif, bmp, tif.pdf. </div>
+                </div>
+            </div>
+            <div class="mx-3 my-2 py-2">
+                <button style="min-width: 120px;" class="rounded btn btn-danger">Cancel</button>
+                <button style="min-width: 120px;" class="ml-2 rounded btn btn-success">Save</button>
+            </div>
+
+            <!-- Section for the document preview-->
+            <div class="d-xl-flex gap-5">
+                <div class="w-lg-25 d-flex flex-column justify-content-center my-5">
+                    <div class="position-relative px-4 py-3 bg-light rounded-5 d-flex justify-content-center">
+                        <img src="https://via.placeholder.com/112x160/FFFFFF/000000?Text=Digital.com" class="rounded shadow " alt="">
+                        <span class="position-absolute top-2 start-50 translate-middle badge bg-dark rounded-pill py-2 px-3">Private</span>
+                    </div>
+                    <div class="mt-lg-3">
+                        <div class="d-flex justify-content-between mt-2">
+                            <div>
+                                <button class="btn btn-success btn-sm text-white">
+                                    <i class="fas fa-image"></i>
+                                </button>
+                                <button class="btn btn-success btn-sm rounded text-white">
+                                    <i class="fal fa-arrows"></i>
+                                </button>
+                            </div>
+                            <div> <button class="btn btn-danger btn-sm rounded text-white">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mt-2 d-sm-flex gap-2">
+                            <div>
+                                <input type="radio" id="someText" value="">
+                                <label for="someText" class="ms-3"> Make it Private</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="someText1" value=""><label for="someText1" class="ms-3">Add Watermark
+                                    1</label>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="bg-light rounded py-1 px-2">vacc_document12.pdf</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </content>
+</body>
+
+</html>
+
+</html>
